@@ -1,0 +1,18 @@
+.menu{
+    background-color: #005496;
+}
+.menu:hover{
+    box-shadow: 0 0 10px 5px #005496;
+}
+.menu-img {
+    width: 100%; /* Lebar sesuai kebutuhan Anda */
+    height: 300px; /* Tinggi sesuai kebutuhan Anda */   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-img img {
+    object-fit: cover; /* Atur sesuai preferensi Anda (cover, contain, fill, dsb.) */
+    height: 100%;
+}
